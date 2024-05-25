@@ -1,0 +1,30 @@
+name: miniproject2
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.5.0
+  firebase_storage: ^11.6.9
+  image_picker: ^1.0.8
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/login.jpg
+    - assets/images/home.jpg
+    - assets/images/splash_screen.jpg
